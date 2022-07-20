@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityMainBinding activityMainBinding= DataBindingUtil.setContentView(this,R.layout.activity_main);
     //activityMainBinding.setName("satya prakash");
-        Model model=new Model("Hi, My Name is Satya Prakash");
+        Model model=new Model("Hello, My Name is Satya Prakash");
         activityMainBinding.setModel(model);
     }
 
